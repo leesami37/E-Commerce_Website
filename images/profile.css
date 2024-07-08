@@ -1,0 +1,87 @@
+body {
+  background: url("./images/");
+}
+
+.white {
+  width: 1000px;
+  height: 550px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 100px 0 0 250px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.left {
+  width: 500px;
+  padding: 150px 50px 100px 150px;
+}
+
+.right {
+  width: 500px;
+  padding: 80px 0 0 50px;
+}
+
+.placeicon {
+  font-family: fontawesome;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 30px;
+  margin-left: 35px;
+  color: #ffffff;
+}
+
+.right input[type="email"],
+.right input[type="password"],
+.right input[type="text"] {
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 5px 0 5px 15px;
+  outline: none;
+  font-size: 16px;
+}
+
+.right input[type="password"] {
+  margin: 10px 0 20px 0;
+}
+
+.right button[type="submit"] {
+  width: 260px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #5fc752;
+  color: #ffffff;
+  outline: none;
+}
+
+.register {
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+.register a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+.right button[type="submit"]:hover {
+  background-color: #1fff03;
+  color: #000000;
+}
+
+.left a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 60px;
+}
+
+.left a:hover {
+  text-decoration: underline;
+}

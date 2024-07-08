@@ -1,0 +1,321 @@
+.top-right:hover {
+  color: #000000;
+}
+
+.big_image {
+  height: 600px;
+  width: 100%;
+  /*background: #FFB6C1;*/
+}
+
+.big_image img {
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.categories .first {
+  text-transform: uppercase;
+  width: 200px;
+  height: 200px;
+  background: url("images/men.jpg");
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.84);
+}
+
+.categories .second {
+  text-transform: uppercase;
+  width: 200px;
+  height: 200px;
+  background: url("images/women1.jpg");
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.84);
+}
+
+.categories .third {
+  text-transform: uppercase;
+  width: 200px;
+  height: 200px;
+  background: url("images/kids.jpg");
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.84);
+}
+
+.categories div {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories div:active div,
+.categories div:hover div {
+  color: #000000;
+  background: rgba(256, 256, 256, 0.8);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.84);
+}
+
+.categories div div {
+  transition-property: background;
+  transition-duration: 2s;
+}
+
+.categories div a p {
+  font-weight: bold;
+  color: transparent;
+  font-size: 20px;
+}
+
+.categories div:active div a p,
+.categories div:hover div a p {
+  color: #000000;
+}
+
+.categories div div a {
+  background: transparent;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.products .fourth {
+  text-transform: uppercase;
+  width: 200px;
+  height: 200px;
+  background: url("images/shirts.jpg");
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.84);
+}
+
+.products .fifth {
+  text-transform: uppercase;
+  width: 200px;
+  height: 200px;
+  background: url("images/jeans.jpg");
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.84);
+}
+
+.products div {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products div:active div,
+.products div:hover div {
+  color: #000000;
+  background: rgba(256, 256, 256, 0.8);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.84);
+}
+
+.products div div {
+  transition-property: background;
+  transition-duration: 2s;
+}
+
+.products div a p {
+  font-weight: bold;
+  color: transparent;
+  font-size: 20px;
+}
+
+.products div:active div a p,
+.products div:hover div a p {
+  color: #000000;
+}
+
+.products div div a {
+  background: transparent;
+}
+
+.content1 {
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.content1 .text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020; /*light black*/
+}
+
+.content1 .p {
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+
+footer {
+  width: 100%;
+  height: 270px;
+  background: #000000;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+footer h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 33%;
+  margin: 30px 0 0 20px;
+}
+
+.mid {
+  width: 33%;
+  margin: 30px 0 0 20px;
+}
+
+.right {
+  width: 33%;
+  margin: 30px 0 0 20px;
+
+}
+
+.left .social ul li {
+  display: inline-flex;
+  margin: 20px 0 0 0;
+}
+
+.left .social a {
+  padding: 0 2px;
+}
+
+.left .social a i {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.left .social a i:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.left p {
+  text-align: justify;
+}
+
+.mid .fas {
+  font-size: 25px;
+  background: #1a1a1a;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.mid .fas:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.mid .text {
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.mid .phone {
+  margin: 15px 0;
+}
+
+.mid {
+  margin-left: 100px;
+}
+
+.right form .txt {
+  font-size: px;
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+.right form .msg {
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.right form input[type="email"],
+.right form input[type="textarea"]
+ {
+  font-size: 17px;
+  background: #151515;
+  border: 1px solid #222222;
+  color: #ffffff;
+  width: 80%;
+  height: 30px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: #656565;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffffff;
+  width: 80%;
+  height: 30px;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}

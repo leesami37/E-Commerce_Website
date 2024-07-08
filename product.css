@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: url("images/login.jpg");
+}
+
+.content {
+  width: 1000px;
+  height: 550px;
+  background: white;
+  margin: 100px 0 0 250px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.left {
+  width: 500px;
+  padding: 130px 0 20px 80px;
+}
+
+.right {
+  width: 500px;
+  padding: 100px 40px 0 30px;
+}
+
+.left img {
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  background: #000000;
+  color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  padding: 8px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3d3c3c;
+  color: #ffffff;
+}

@@ -1,0 +1,12 @@
+body {
+  background: url("images/login.jpg");
+}
+
+.middle {
+  width: 450px;
+  height: 650px;
+  background-color: white;
+  padding: 50px;
+  margin-top: 65px;
+  margin-left: 550px;
+}
